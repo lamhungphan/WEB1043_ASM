@@ -1,0 +1,18 @@
+
+.nav-right>ul>li>i:hover {
+    color: #4D8ECE;
+}
+
+.center {
+    width: 80%;
+    margin: 70px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.center iframe{
+    width: 100%;
+    height: 600px;
+}
+

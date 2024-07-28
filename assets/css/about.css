@@ -1,0 +1,63 @@
+.center {
+    width: 80%;
+    margin: 70px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.greeting {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation-name: colorChange;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: rgb(178, 102, 223);
+    }
+
+    20% {
+        background-color: rgb(211, 211, 91);
+    }
+
+    40% {
+        background-color: rgba(112, 223, 98, 0.822);
+    }
+
+    60% {
+        background-color: rgb(238, 56, 56);
+    }
+
+    80% {
+        background-color: rgb(75, 127, 240);
+    }
+
+    100% {
+        background-color: rgb(75, 229, 240);
+    }
+}
+
+.container {
+    padding: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    animation-name: grow;
+    animation-duration: 3s;
+}
+
+@keyframes grow {
+    10% {
+        transform: scale(1.2, 1.2)
+    }
+}

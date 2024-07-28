@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung galaxy S24",
+        "price": 200,
+        "image": "https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung galaxy S24",
+        "price": 200,
+        "image": "https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg"
+    },{
+        "id": 3,
+        "name": "Samsung galaxy S24",
+        "price": 200,
+        "image": "https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg"
+    },{
+        "id": 4,
+        "name": "Samsung galaxy S24",
+        "price": 200,
+        "image": "https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg"
+    }
+]

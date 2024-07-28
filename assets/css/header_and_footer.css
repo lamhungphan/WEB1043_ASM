@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#container {
+    width: auto;
+    height: auto;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #172226;
+    width: 1520px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header>div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.header a {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+/* nav */
+.main-menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    height: 100%;
+    /* color: #f4f4f4; */
+    /* background-color: #4D8ECE; */
+    /* padding-bottom: 30px; */
+}
+
+.main-menu>div>ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.main-menu>div>ul>li>a {
+    display: block;
+    text-decoration: none;
+    color: #f4f4f4;
+    height: 100%;
+    padding: 20px 15px;
+}
+
+.main-menu ul a:hover {
+    color: #4D8ECE;
+}
+
+/* khoảng cách giữa các mục menu */
+.main-menu li {
+    margin: 0px 10px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+/* sub menu */
+.nav-left>ul>li>ul {
+    display: none;
+    position: absolute;
+    padding: 0;
+    background-color: #172226;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-left>ul>li>ul>li>a {
+    color: #f4f4f4;
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+}
+
+/* hover to show sub menu */
+.nav-left>ul>li:hover>ul {
+    display: block;
+}
+
+/* icon */
+.nav-right>ul>li>i {
+    padding-top: 20px;
+    color: #f4f4f4;
+    font-size: large;
+    margin: 0 5px;
+}
+
+#cart {
+    position: relative;
+}
+
+.nav-right>ul>li>span {
+    background-color: rgb(207, 58, 58);
+    border-radius: 50%;
+    color: #f4f4f4;
+    font-size: 0.8em;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -56%;
+    right: -20px;
+}
+
+.nav-right>ul>li>i:hover {
+    color: #4D8ECE;
+}
+
+.center {
+    width: 80%;
+    margin: 70px auto;
+    padding: 10px;
+    background-color: #f4f4f4;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.footer {
+    width: 100%;
+    height: 700px;
+    background-color: #1d1d1f;
+    padding: 10px 10px;
+}
+
+.footer p {
+    color: #777;
+}
