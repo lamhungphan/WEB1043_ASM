@@ -2,23 +2,48 @@
     {
         "id": 1,
         "name": "Samsung Galaxy S24 Ultra",
-        "price": "29.990.000",
+        "price": 29990000 ,
         "image": "https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg"
     },
     {
         "id": 2,
         "name": "Samsung Galaxy A35 5G",
-        "price": "7.900.000",
+        "price": 7900000,
         "image": "https://samcenter.vn/images/thumbs/0006372_samsung-galaxy-a35-5g-128gb_420.jpeg"
     },{
         "id": 3,
         "name": "Samsung Galaxy A55 5G",
-        "price": "9.690.000",
+        "price": 9690000,
         "image": "https://samcenter.vn/images/thumbs/0006400_samsung-galaxy-a55-5g-128gb_420.jpeg"
-    },{
+    }
+    ,{
         "id": 4,
         "name": "Samsung Galaxy Z Fold5",
-        "price": "27.990.000",
+        "price": 27990000,
         "image": "https://samcenter.vn/images/thumbs/0004244_samsung-galaxy-z-fold5-512gb_420.jpeg"
+    }
+    ,{
+        "id": 5,
+        "name": "Samsung Galaxy Z Fold6",
+        "price": 43990000,
+        "image": "https://samcenter.vn/images/thumbs/0007270_galaxy-z-fold6_420.png"
+    }
+    ,{
+        "id": 6,
+        "name": "Samsung Galaxy Z Flip6",
+        "price": 28990000,
+        "image": "https://samcenter.vn/images/thumbs/0007269_galaxy-z-flip6_420.png"
+    }
+    ,{
+        "id": 7,
+        "name": "Samsung Galaxy Watch Ultra",
+        "price": 16990000,
+        "image": "https://samcenter.vn/images/thumbs/0007268_galaxy-watch-ultra-lte-47mm_420.png"
+    }
+    ,{
+        "id": 8,
+        "name": "Samsung Galaxy Watch7",
+        "price": 7990000,
+        "image": "https://samcenter.vn/images/thumbs/0007272_galaxy-watch7-bluetooth_420.png"
     }
 ]

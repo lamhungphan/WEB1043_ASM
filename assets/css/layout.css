@@ -1,52 +1,56 @@
-.center {
-    width: 80%;
-    padding: 10px;
-    background-color: #f4f4f4;
-}
-
 /* create from cart.js */
-.title{
+.title {
     font-size: xx-large;
 }
-.listProduct .item img{
+
+.listProduct .item img {
     width: 100%;
 }
-.listProduct{
+
+.listProduct {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
-.listProduct .item{
-    background-color: #EEEEE6;
+
+.listProduct .item {
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 16px;
     text-align: center;
 }
-.listProduct .item h2{
+
+.listProduct .item h2 {
     font-weight: 500;
     font-size: large;
-    
 }
-.listProduct .item .price{
+
+.listProduct .item .price {
     letter-spacing: 1.2px;
+    margin-top: 40px;
     font-size: large;
     color: #4D8ECE;
     font-weight: bold;
 }
-.listProduct .item button{
+
+.listProduct .item button {
     border: none;
-    border-radius: 20px;
+    border-radius: 16px;
     padding: 15px 15px;
-    margin-top: 10px;
+    margin-top: 40px;
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     background-color: #333;
     cursor: pointer;
 }
-.listProduct .item button:hover{
+
+.listProduct .item button:hover {
     background-color: #4D8ECE;
+}
+
+.item:hover {
+    border: #8ba8c5 1px solid;
 }
 
 /* top */
@@ -94,7 +98,7 @@
 .galaxyBuds,
 .news {
     width: auto;
-    height: 550px;
+    height: 1000px;
     background-color: white;
 }
 
@@ -125,7 +129,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
@@ -135,7 +139,7 @@
     border: 1px solid #888;
     width: 80%;
     max-width: 400px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
