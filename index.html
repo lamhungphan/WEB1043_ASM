@@ -40,26 +40,16 @@
                     <ul>
                         <li><i class="fa-solid fa-magnifying-glass"></i></li>
                         <li>
-                            <i id="cart" class="fa-solid fa-cart-shopping" onclick="showCart()"></i>
-                            <span>0</span>
+                            <div class="icon-cart">
+                                <i id="cart" class="fa-solid fa-cart-shopping" onclick="showCart()"></i>
+                                <span id="cart-quantity">0</span>
+                            </div>
                         </li>
                         <div id="show-cart" class="cartDetail">
                             <div class="listCart">
+                                <!-- <div class="item">
 
-                                <div class="item">
-                                    <div class="cart-product-img"><img
-                                            src="https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg"
-                                            alt="">
-                                    </div>
-                                    <div class="cart-product-name">ten san pham</div>
-                                    <div class="cart-product-price">200$</div>
-                                    <div class="cart-product-quantity">
-                                        <span class="minus">&#10094</span>
-                                        <span class="quantity">1</span>
-                                        <span class="plus">&#10095</span>
-                                    </div>
-                                </div>
-
+                                </div> -->
                             </div>
                             <div class="btn">
                                 <button id="buy">Mua</button>
@@ -98,130 +88,14 @@
                 </div>
                 <div class="line"></div>
                 <div class="bot-frame">
-                    <div class="product-frame">
-                        <img src="https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg">
-                        <div class="product-frame-info">
-                            <div class="name">Samsung Galaxy S24 Ultra</div>
-                            <div class="price">33.990.000</div>
-                            <div class="line-through"><del>40.990.000</del></div>
-                            <div><button onclick="addToCart(this)">Thêm vào giỏ hàng</button></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bot-frame">
-                    <div class="product-frame">
-                        <img src="https://samcenter.vn/images/thumbs/0006372_samsung-galaxy-a35-5g-128gb_420.jpeg">
-                        <div class="product-frame-info">
-                            <div class="name">Samsung Galaxy A35 5G 128GB<br>(đã kích hoạt BHĐT)</div>
-                            <div class="price">---</div>
-                            <div class="line-through"><del>-</del></div>
-                            <div><button>Liên hệ</button></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bot-frame">
-                    <div class="product-frame">
-                        <img src="https://samcenter.vn/images/thumbs/0006400_samsung-galaxy-a55-5g-128gb_420.jpeg">
-                        <div class="product-frame-info">
-                            <div class="name">Samsung Galaxy A55 5G 128GB</div>
-                            <div class="price">9.690.000</div>
-                            <div class="line-through"><del>9.990.000</del></div>
-                            <div><button>Mua ngay</button></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bot-frame">
-                    <div class="product-frame">
-                        <img src="https://samcenter.vn/images/thumbs/0004244_samsung-galaxy-z-fold5-512gb_420.jpeg">
-                        <div class="product-frame-info">
-                            <div class="name">Samsung Galaxy Z Fold5 512GB</div>
-                            <div class="price">37.390.000</div>
-                            <div class="line-through"><del>44.990.000</del></div>
-                            <div><button>Mua ngay</button></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bannerWatch">
-                <img src="https://samcenter.vn/images/uploaded/Image%20product/Artboard%201.png" alt="">
-            </div>
-            <div class="galaxyWatch">
-                <div class="top-frame">
-                    <div class="category">
-                        <a href="#">Samsung Watch</a>
-                    </div>
-                    <div class="show-all">
-                        <a href="#">Xem tất cả</a>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="bot-frame">
-                    <div class="product-frame">
-                        <img src="https://samcenter.vn/images/thumbs/0003473_galaxy-watch6-classic_420.jpeg">
-                        <div class="product-frame-info">
-                            <div class="name">Galaxy Watch6 Classic</div>
-                            <div class="price">7.250.000</div>
-                            <div class="line-through"><del>8.990.000</del></div>
-                            <button>Mua ngay</button>
-                        </div>
-                    </div>
-                    <div class="product-frame">
-                        <img src="https://samcenter.vn/images/thumbs/0003327_galaxy-watch6_420.jpeg">
-                        <div class="product-frame-info">
-                            <div class="name">Galaxy Watch6<br>42mm</div>
-                            <div class="price">5.800.000</div>
-                            <div class="line-through"> <del>6.990.000</del></div>
-                            <button>Mua ngay</button>
-                        </div>
-                    </div>
-                    <div class="product-frame">
-                        <img src="https://samcenter.vn/images/thumbs/0003327_galaxy-watch6_420.jpeg">
-                        <div class="product-frame-info">
-                            <div class="name">Galaxy Watch6<br>38mm</div>
-                            <div class="price">4.800.000</div>
-                            <div class="line-through"> <del>5.990.000</del></div>
-                            <button>Mua ngay</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="bannerTab">
-                <img src="https://samcenter.vn/images/uploaded/Image%20product/Artboard%202.png" alt="">
-            </div>
-            <div class="galaxyTab">
-                <div class="top-frame">
-                    <div class="category">
-                        <a href="#">Galaxy Tab</a>
-                    </div>
-                    <div class="show-all">
-                        <a href="#">Xem tất cả</a>
-                    </div>
-                </div>
-                <div class="line"></div>
-                <div class="product-frame">
-                    <img src="https://samcenter.vn/images/thumbs/0004336_galaxy-tab-s9-wi-fi-256gb_420.jpeg">
-                    <div class="product-frame-info">
 
-                        <div class="name">Galaxy Tab S9+ Wi-Fi 256GB</div>
-                        <div class="price">18.990.000</div>
-                        <div class="line-through"><del>25.990.000</del></div>
-                        <button>Mua ngay</button>
-                    </div>
-                </div>
-                <div class="product-frame">
-                    <img src="https://samcenter.vn/images/thumbs/0004288_galaxy-tab-s9-wi-fi-128gb_420.jpeg">
-                    <div class="product-frame-info">
+                    <div class="listProduct">
 
-                        <div class="name">Galaxy Tab S9 Wi-Fi 128GB</div>
-                        <div class="price">14.990.000</div>
-                        <div class="line-through"><del>19.990.000</del></div>
-                        <button>Mua ngay</button>
                     </div>
+
                 </div>
             </div>
-
         </div>
-
     </div>
 
     <div class="footer">
@@ -291,23 +165,7 @@
     </div>
 
 </body>
-<script type='text/javascript'>
-    // chatbox
-    var onWebChat = {
-        ar: [], set: function (a, b) {
-            if (typeof onWebChat_ === 'undefined') {
-                this.ar.
-                    push([a, b]);
-            } else { onWebChat_.set(a, b); }
-        }, get: function (a) { return (onWebChat_.get(a)); },
-        w: (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript';
-            ga.async = 1; ga.src = ('https:' == document.location.protocol ? 'https:' : 'http:') +
-                '//www.onwebchat.com/clientchat/78b55078de80e3eab81871ad554f5752'; var s =
-                    document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })()
-    }
-</script>
+
 <script src="./assets/js/index.js"></script>
 <script src="./assets/js/img-slider.js"></script>
 <script src="./assets/js/cart.js"></script>

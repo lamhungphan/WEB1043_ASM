@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": "29.990.000",
+        "image": "https://samcenter.vn/images/thumbs/0006347_samsung-galaxy-s24-ultra_420.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy A35 5G",
+        "price": "7.900.000",
+        "image": "https://samcenter.vn/images/thumbs/0006372_samsung-galaxy-a35-5g-128gb_420.jpeg"
+    },{
+        "id": 3,
+        "name": "Samsung Galaxy A55 5G",
+        "price": "9.690.000",
+        "image": "https://samcenter.vn/images/thumbs/0006400_samsung-galaxy-a55-5g-128gb_420.jpeg"
+    },{
+        "id": 4,
+        "name": "Samsung Galaxy Z Fold5",
+        "price": "27.990.000",
+        "image": "https://samcenter.vn/images/thumbs/0004244_samsung-galaxy-z-fold5-512gb_420.jpeg"
+    }
+]
