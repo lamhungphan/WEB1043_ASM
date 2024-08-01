@@ -26,7 +26,6 @@
                         <li>
                             <a href="./view/product.html">Sản phẩm</a>
                             <ul>
-                                <li><a href="">Sản phẩm Khuyến mãi</a></li>
                                 <li><a href="">Sản phẩm mới</a></li>
                                 <li><a href="">Sản phẩm bán chạy</a></li>
                             </ul>
@@ -116,13 +115,12 @@
         </div>
     </div>
 
-    <!-- Bảng đăng nhập -->
     <div class="login">
         <div id="loginModal" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="closeLogin()">&times;</span>
                 <h2>Đăng Nhập</h2>
-                <form action="post">
+                <form>
                     <label for="username">Tên đăng nhập:</label>
                     <br>
                     <input type="text" id="username" name="username">
@@ -133,19 +131,18 @@
                     <br>
                     <a href="#"><label for="forget">Quên mật khẩu?</label></a>
                     <br>
-                    <input type="submit" value="Đăng nhập">
+                    <input type="submit" id="btnLogin" value="Đăng nhập">
                 </form>
             </div>
         </div>
     </div>
 
-    <!-- Bảng đăng ký -->
     <div class="register">
         <div id="registerModal" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="closeRegister()">&times;</span>
                 <h2>Đăng Ký</h2>
-                <form action="post">
+                <form onsubmit="registerModal()">
                     <label for="regUsername">Tên đăng nhập:</label>
                     <br>
                     <input type="text" id="regUsername" name="regUsername">
