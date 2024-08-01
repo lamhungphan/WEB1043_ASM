@@ -5,10 +5,16 @@ let totalPriceElement = document.getElementById('totalPrice');
 let cart = [];
 let products = [];
 
+function showCart() {
+    var x = document.getElementById("show-cart")
+    if (x.style.display == "none" || x.style.display === "") {
+        x.style.display = "block"
+    } else {
+        x.style.display = 'none'
+    }
+}
 
 const addDataToHTML = () => {
-    // remove datas default from HTML
-
     // add new datas
     if (products.length > 0) // if has data
     {
